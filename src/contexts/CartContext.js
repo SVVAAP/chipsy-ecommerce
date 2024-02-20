@@ -37,7 +37,7 @@ useEffect(() => {
     console.log("Cart Item", CartItem)
     if (CartItem) {
       const newCart = [...cart].map((item) => {
-        if (item.id == id) {
+        if (item.id === id) {
           return { ...item, amount: CartItem.amount + 1 };
         } else { return item; }
       });

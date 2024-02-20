@@ -14,13 +14,13 @@ const Hero = () => {
         </div>
         <h1 className='text-[70px] leading-[1.1] font-light mb-4'>
           AUTUM SALE STYLISH <br/>
-          <span className='fpnt-semobold'>WOMENS</span>
+          <span className='fpnt-semobold'>MEN</span>
         </h1>
         <Link to={'/'} className='self-start uppercase font-semibold border-b-2 border-primary'>Discover More</Link>
       </div>
       {/* image */}
       <div className='hidden lg:block'>
-        <img  src={WomanImg} alt="" />
+        <img className='max-w-[50%]'  src={WomanImg} alt="" />
       </div>
     </div>
   </section>;
