@@ -30,7 +30,7 @@ const Signup = () => {
     <main className="min-h-screen bg-gray-100 flex items-center justify-center">
       <section className="bg-white shadow-md rounded-md p-8 w-full max-w-md">
         <div>
-          <h1 className="text-2xl font-semibold text-gray-800">FocusApp</h1>
+          <h1 className="text-2xl font-semibold text-gray-800">SVVAAP</h1>
           <form>
             <div className="mt-4">
               <label htmlFor="email-address" className="block text-sm font-medium text-gray-700">Email address</label>
